@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 95px 4px 0px;
+    line-height: 30px;
+    background-color: #24292e;
+    color: white;
+}
+
+header i.fas.fa-bars, header i.fab.fa-github {
+    display: none;
+}
+
+ul {
+    display: flex;
+}
+
+.leftHead {
+    padding-right: 7em;
+}
+
+li {
+    margin: 0px 12px;
+    list-style: none;
+}
+
+#introduction a, header a, form a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.rightHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.signUp-btn {
+    background-color: #24292e;
+    padding: 10px 21px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.inputHeader {
+    padding: 12px 8px;
+    border-radius: 6px;
+    background: #3f4448;
+    border: 1px solid #3f4448;
+    color: #788b92;
+}
+
+@media screen and (max-width:425px) {
+    header {
+        justify-content: space-between;
+        padding: 30px 30px 19px 20px;
+    }
+    header i.fas.fa-bars {
+        display: block;
+        font-size: 50px;
+    }
+    .leftHead {
+        display: none;
+    }
+    .inputHeader {
+        display: none;
+    }
+    header li {
+        display: none;
+    }
+    .signUp-btn {
+        padding: 10px 21px;
+        margin: 0px 1em;
+        border-radius: 9px;
+        font-size: 3em;
+        border: 1px solid white;
+        border-width: thick;
+    }
+    header i.fab.fa-github {
+        font-size: 6em;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        padding: 30px 50px 19px 20px;
+    }
+}

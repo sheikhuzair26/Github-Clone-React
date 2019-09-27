@@ -1,0 +1,43 @@
+#config {
+  display: flex;
+  flex-direction: row;
+  padding: 5em 8em 3em 8em;
+}
+
+#config img {
+  height: 29em;
+}
+
+.config-details {
+  margin-left: 75px;
+}
+
+#config summary {
+  margin-bottom: 4em;
+  padding-right: 40px;
+  text-align: justify;
+}
+
+#config h4 {
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width:425px) {
+  #config {
+    flex-direction: column;
+    align-items: center;
+  }
+  #config img {
+    height: 182vh;
+  }
+  .config-details {
+    font-size: 3em;
+    margin: 2em 0px;
+    }
+  #config summary {
+    margin-bottom: 2em;
+  }
+  #config h4 {
+    margin-bottom: 40px;
+  }
+}

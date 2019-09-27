@@ -1,0 +1,61 @@
+#introduction {
+  background: url(https://github.githubassets.com/images/modules/site/iso-ui.jpg);
+  margin: 4em 10em;
+  padding: 2em 0em;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  background-size: cover;
+}
+
+.container-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+}
+
+.intro-content {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.intro-para {
+  color: hsla(0, 0%, 100%, .7);
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.btn-into {
+  padding: 18px 28px;
+  background: transparent;
+  border: 1px solid #007ff9;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width:425px) {
+  #introduction {
+    margin: 3em 3em;
+    padding-bottom: 10em;
+  }
+  .container-intro {
+    padding-top: 4em;
+  }
+  .intro-content {
+    font-size: 75px;
+    text-align: center;
+    padding: 2em 2em 1em 2em;
+  }
+  .intro-para {
+    font-size: 45px;
+    padding-bottom: 1em;
+  }
+  .btn-into {
+    padding: 54px 80px;
+    font-size: 45px;
+  }
+}

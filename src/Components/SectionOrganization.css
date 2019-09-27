@@ -1,0 +1,45 @@
+.org-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0em 11em;
+}
+
+.org-container h3 {
+  color: darkgrey;
+  font-size: 25px;
+}
+
+.org-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2em 0em 2em 0em;
+  justify-content: center;
+}
+
+.org-container img {
+  height: 25px;
+}
+
+.org-container li {
+  margin: 14px 2em;
+}
+
+@media screen and (max-width:425px) {
+  #organizations {
+    text-align: center;
+    padding: 0px 5em;
+  }
+  .org-container {
+    padding: 5em 0em;
+  }
+  .org-container h3 {
+    font-size: 50px;
+    padding: 1em 0em;
+  }
+  .org-container img {
+    height: 80px;
+    padding: 15px 0px;
+  }
+}

@@ -1,0 +1,109 @@
+#registration {
+    color: white;
+    display: flex;
+    justify-content: center;
+    background: rgb(36, 41, 46);
+    padding: 5em 0em;
+}
+
+.container-Login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-portal {
+    display: flex;
+}
+
+#inputUser, #inputEmail, #inputPas {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.control {
+    padding: 0px 2em;
+}
+
+.btn-controls {
+    padding: 22px 70px;
+    margin: 16px 22px;
+    background: #2ebc4f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+.btn-controls:hover {
+    background: black;
+    transition: 2s;
+}
+
+#registration label {
+    font-size: 15px;
+}
+
+#registration h3 {
+    font-size: 30px;
+    padding: 0px 7em 2em 7em;
+    text-align: center;
+}
+
+#registration a {
+    color: white;
+    text-decoration: none;
+}
+
+.statement-para {
+    color: rgb(106, 115, 125);
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:425px) {
+    #registration h3 {
+        font-size: 60px;
+        padding: 0px 1em 2em 1em;
+    }
+    .login-portal {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .control {
+        padding: 30px 0em;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+    #inputUser, #inputEmail, #inputPas {
+        /* width: 100%; */
+        min-height: 100px;
+        padding: 30px;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+    #registration label {
+        font-size: 40px;
+    }
+    .btn-controls {
+        padding: 50px 7em;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+    .statement-para {
+        color: rgb(106, 115, 125);
+        font-size: 34px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 1em 3em;
+    }
+}
